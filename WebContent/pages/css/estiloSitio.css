@@ -1,0 +1,29 @@
+.impar{background:#F7FC8F; border-left:1px solid #f7bc6c; color:#4e4e4e;}
+.par{background: #F7BC6C; border-left:1px solid #f7fc8f; color:#4e4e4e;}
+
+.titulo,.subTitulo,.pieForm, .orden, .foto{vertical-align: middle; color: #FFF;}
+.titulo{background:#105100; height: 50px; border-left:1px solid #3f840e; border-bottom:1px solid #3f840e; font-size:20px;
+text-align:center;
+}
+.subTitulo{background:#b46700; height: 40px; border-left:1px solid #3f840e; border-bottom:1px solid #3f840e; font-size:16px;}
+.pieForm{background:#646664; height: 35px; border-left:1px solid #075905; border-bottom:1px solid #075905;}
+
+td, th, input, select{min-height:30px; background:#FFF;}
+.tdDer{background:#F7FC8F; color:#585c4f; border-top:1px solid #F7BC6C; text-align:left; padding-left:5px; width:50%; }
+.tdIzq{background:#F7BC6C; color:#585c4f; border-top:1px solid #F7FC8F; font-weight: bold;  text-align:right; padding-right:5px; width:50%;}
+
+.orden{background:#3f840e; border-left:1px solid #105100}
+
+.fotoPC{width:180px; height:130px;}
+
+.boton{border:1px solid orange; height:55px; margin:0px; background: url(img/fondoLados.png); width:100%;}
+
+.tdCenter{
+background:#d68921;
+    text-align:center; 
+}
+
+.morado{background:#8c08d1; height: 50px; border-left:1px solid #3f840e; border-bottom:1px solid #3f840e;
+text-align:center;
+color:#FFF;
+}

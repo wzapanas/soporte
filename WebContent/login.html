@@ -1,0 +1,51 @@
+<!-- 
+* Copyright 2016 Carlos Eduardo Alfaro Orellana
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Inicio de sesión</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut Icon" type="image/x-icon" href="login/assets/icons/book.ico" />
+    <script src="login/js/sweet-alert.min.js"></script>
+    <link rel="stylesheet" href="login/css/sweet-alert.css">
+    <link rel="stylesheet" href="login/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="login/css/normalize.css">
+    <link rel="stylesheet" href="login/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="login/css/style.css">
+    <link rel="stylesheet" href="login/css/login.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="login/js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="login/js/modernizr.js"></script>
+    <script src="login/js/bootstrap.min.js"></script>
+    <script src="login/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="login/js/main.js"></script>
+</head>
+<body class="full-cover-background" style="background-image:url(login/assets/img/font-login.jpg);">
+    <div class="form-container">
+        <p class="text-center" style="margin-top: 17px;">
+           <i class="zmdi zmdi-account-circle zmdi-hc-5x"></i>
+       </p>
+       <h4 class="text-center all-tittles" style="margin-bottom: 30px;">inicia sesión con tu cuenta</h4>
+       <form action="Login.do" method="post">
+            <div class="group-material-login">
+              <input type="text" class="material-login-control" required="" maxlength="70" name="txtUsuario" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" >
+              <span class="highlight-login"></span>
+              <span class="bar-login"></span>
+              <label><i class="zmdi zmdi-account"></i> &nbsp; Nombres</label>
+            </div><br>
+            <div class="group-material-login">
+              <input type="password" class="material-login-control" required="" maxlength="70" name="txtClave" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" >
+              <span class="highlight-login"></span>
+              <span class="bar-login"></span>
+              <label><i class="zmdi zmdi-lock"></i> &nbsp; Contraseña</label>
+            </div>
+            <div class="group-material">
+            </div>
+            <button class="btn-login" type="submit">Ingresar al sistema &nbsp; <i class="zmdi zmdi-arrow-right"></i></button>
+        </form>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,24 @@
+html{
+	padding: 30px;	
+}
+
+#morado{
+	background-color: #AB048B;
+	text-align:center;
+}
+#morado_suave{
+	background-color: #CD6EC4;
+}
+#amarillo{
+	background-color: #FDF03D;
+}
+#celeste{
+	background-color: #17F4CE;
+}
+#verde{
+	background-color: #0F6;	
+}
+
+#naranja{
+	background-color: #F90;	
+}
