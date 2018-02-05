@@ -8,7 +8,7 @@ import pe.gob.pj.csjar.tickets.controlador.Usuario;
 import pe.gob.pj.csjar.tickets.modelo.Dao;
 import pe.gob.pj.csjar.tickets.modelo.UsuarioDao;
 
-
+//no fun
 public class prueba {
 
 	public static void main(String[] args) {
