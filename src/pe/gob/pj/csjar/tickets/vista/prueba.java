@@ -8,6 +8,7 @@ import pe.gob.pj.csjar.tickets.controlador.Usuario;
 import pe.gob.pj.csjar.tickets.modelo.Dao;
 import pe.gob.pj.csjar.tickets.modelo.UsuarioDao;
 //caramba
+//copiado
 
 public class prueba {
 
